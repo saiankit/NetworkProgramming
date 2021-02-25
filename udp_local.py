@@ -1,15 +1,15 @@
 import argparse, socket
 from datetime import datetime
 
-MAX_BYTES = 65555 
+MAX_BYTES = 65555
 # UDP Maximum packet size is 65 kilo bites
-# So we are making sure the packet size that is transmiting in the network is less than that maximum size  
+# So we are making sure the packet size that is transmiting in the network is less than that maximum size
 
 
 def server(port):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     #AF_INET = IPV4
-    # SOCK_DIAGRAM = To look
+    # SOCK_DIAGRAM = UDP Protocol
     sock.bind(('127.0.0.1', port))
     # We are binding to local host 127.0.0.1 and the port is coming into the function
     print("Server is Listening at {}".format(sock.getsockname()))
@@ -31,7 +31,7 @@ def client(port):
     data, address = sock.recvfrom(MAX_BYTES)
     text = data.decode('ascii')
     print('The server at this location {} replied {!r}'.format(address, text))
-    
+
 
 if __name__ == '__main__':
     choices = {'client': client, 'server': server}

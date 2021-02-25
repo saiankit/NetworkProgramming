@@ -1,0 +1,121 @@
+{
+  "main": {
+    "id": "f7580b06ea1870da",
+    "type": "split",
+    "children": [
+      {
+        "id": "65b994efedae4918",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Module2/Basics of UDP.md",
+            "mode": "source"
+          }
+        },
+        "group": "6f4f0b5a48fb76a9"
+      },
+      {
+        "id": "685476d5a95c1e78",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Module2/Basics of UDP.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6f4f0b5a48fb76a9"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74a1544980bd2b46",
+    "type": "split",
+    "children": [
+      {
+        "id": "cae6d4186ce0450d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a13ff780f584d446",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c1f055feeb5d48c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6b8d8ce2acfb47a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "738bc51bf8919754",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcc50f2a5a393d05",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Module2/Basics of UDP.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "19ef621128640777",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 397,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Module2/Basics of UDP.md",
+    "README.md",
+    "Module3/Basics of TCP.md",
+    "Module1/Transport Layer.md",
+    "Module1/Basics of Protocol.md",
+    "Module1/Untitled.md",
+    "Module3/Untitled.md",
+    "Module2/Untitled.md",
+    "Untitled.md"
+  ]
+}
